@@ -1,0 +1,56 @@
+/******BASE STYLES******/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+}
+
+/****** GRID ******/
+
+.full-width {
+  width: 1236px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 618px;
+  float: left;
+}
+
+.third-width {
+  width: 412px;
+  float: left;
+}
+
+/***** HEADER *****/
+header {
+  height: 105px;
+  font-family: 'Montserrat', sans-serif;
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+span {
+  color: #000000;
+}
+nav {
+  float: right;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #77a466;
+}
+
+.section-one
+ul {
+  color: #77a466;
+  text-decoration: none;
+  display: block;
+}
