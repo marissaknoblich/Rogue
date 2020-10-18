@@ -10,7 +10,7 @@ body {
 .full-width {
   width: 1236px;
   margin: 0 auto;
-}
+  }
 
 .half-width {
   width: 618px;
@@ -24,10 +24,11 @@ body {
 
 /***** HEADER *****/
 header {
-  height: 105px;
+  height: 70px;
   font-family: 'Montserrat', sans-serif;
   color: #77a466;
   text-transform: uppercase;
+  background-color: lightgray;
 }
 
 span {
@@ -53,4 +54,16 @@ ul {
   color: #77a466;
   text-decoration: none;
   display: block;
+}
+
+.container-fluid{
+  color: black;
+  font-weight:3;
+  background-color: lightgray;
+  border-top-width:3px;
+  border-top-color: black;
+}
+
+.nav-pills{
+  color: navy;
 }
